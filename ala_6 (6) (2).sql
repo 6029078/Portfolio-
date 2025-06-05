@@ -64,10 +64,10 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`contact_id`, `contact_Naam`, `contact_Achternaam`, `contact_Email`, `contact_Status`, `contact_Bericht`, `verwijderd`) VALUES
-(11, 'Muhammet', 'Aslan', 'muhammet@gmail.com', 'Gelezen', 'raaaaaaaaaaaaaa', 0),
-(12, 'Adnan', 'Arabbaj', 'Adnan@gmail.com', 'Gelezen', 'Praat veel onzinddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd', 0),
+(11, 'Muhammet', 'Aslan', 'muhammet@gmail.com', 'Gelezen', 'hoi', 0),
+(12, 'Adnan', 'Arabbaj', 'Adnan@gmail.com', 'Gelezen', 'hoi', 0),
 (13, 'safoune', 'Lahoua', 'safoune@gmail.com', 'Gelezen', ':)', 1),
-(15, 'Ismael', 'balaban', 'ismael@gmail.com', '', 'Je moeder vriend', 0);
+(15, 'Ismail', 'balaban', 'ismail@gmail.com', '', 'hoi', 0);
 
 -- --------------------------------------------------------
 
@@ -137,8 +137,8 @@ INSERT INTO `reviews` (`review_id`, `book_id`, `user_name`, `user_review`, `crea
 (4, 1, 'Adnan', 'goed', '2024-01-25 20:36:40'),
 (5, 1, 'Muhammet', 'goed', '2024-01-25 20:48:12'),
 (6, 1, 'Adnan', 'hdllewf', '2024-01-25 20:54:02'),
-(7, 1, 'Safouane', 'Heel goed lan', '2024-01-25 21:01:44'),
-(8, 1, 'Ismail', 'niks nigga', '2024-01-25 21:08:37'),
+(7, 1, 'Safouane', 'Heel goed ', '2024-01-25 21:01:44'),
+(8, 1, 'Ismail', 'niks', '2024-01-25 21:08:37'),
 (9, 1, 'adnan', 'wq', '2024-01-25 21:11:17'),
 (10, 1, 'Ali', 'ik ben verstopt', '2024-01-25 21:14:05');
 
